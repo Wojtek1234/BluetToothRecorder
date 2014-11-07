@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluetToothRecorder</string>
+    <string name="polacz_but">Connect</string>
+    <string name="nagrywaj_but">Record</string>
+    <string name="marker_but">Send Marker</string>
+    <string name="zakoncz_but">Stop Recording</string>
+    <string name="Rozlacz">Disconnect</string>
+    <string name="Resp_number">Choose number</string>
+    <string name="action_settings">setting</string>
+
+</resources>

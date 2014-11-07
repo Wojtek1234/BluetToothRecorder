@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView">
+
+
+        </ListView>
+    </FrameLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/polacz_but"
+        android:drawableLeft="@drawable/bluetooth"
+        android:background="?android:selectableItemBackground"
+        android:layout_weight="4"
+        android:id="@+id/polacz_but"
+        android:onClick="connect"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:text="@string/nagrywaj_but"
+        android:drawableLeft="@drawable/recorddisabled"
+        android:background="?android:selectableItemBackground"
+        android:id="@+id/nagrywaj_but"
+        android:onClick="startRecording"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:text="@string/marker_but"
+        android:drawableLeft="@drawable/send_icon"
+        android:id="@+id/marker_but"
+        android:onClick="sendMarker"
+        android:background="?android:selectableItemBackground"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:text="@string/Rozlacz"
+        android:onClick="disconnect"
+        android:drawableLeft="@drawable/disconnect"
+        android:background="?android:selectableItemBackground"
+        android:id="@+id/rozlacz_but"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+</LinearLayout>
+
